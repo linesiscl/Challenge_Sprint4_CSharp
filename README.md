@@ -38,6 +38,17 @@ Os principais objetivos são:
 ## Instruções de execução
 
 1. Clonar o projeto
+```bash
+git clone https://github.com/linesiscl/Challenge_Sprint4_CSharp.git
+```
+
+2. Executar o projeto pelo terminal
+```
+cd sprint4
+dotnet run
+```
+
+---
 
 ## Estrutura do Projeto
 
@@ -106,4 +117,5 @@ Após iniciar o projeto, acesse:
 
 ## Diagrama de Arquitetura
 
+<img width="3788" height="1420" alt="image" src="https://github.com/user-attachments/assets/49265e9a-ecb7-43b0-95be-e356e248eff6" />
 
