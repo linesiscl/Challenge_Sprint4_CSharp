@@ -1,16 +1,25 @@
 # Projeto de Investimento Bancário — *Sprint 4* - C#
 
+## Integrantes
+
+- Aline Fernandes Zeppelini - RM97966
+- Camilly Breitbach Ishida - RM551474
+- Julia Leite Galvão - RM550201
+- Jessica Costacurta - RM99068
+
+---
+
 ## Visão Geral
 
-Este projeto tem como objetivo o desenvolvimento de uma **API RESTful para gestão de investimentos de clientes bancários**, permitindo o cadastro de clientes, criação e gerenciamento de investimentos associados, e controle centralizado por meio de endpoints documentados via Swagger.
+Este projeto tem como objetivo o desenvolvimento de uma API RESTful para gestão de investimentos de clientes bancários, permitindo o cadastro de clientes, criação e gerenciamento de investimentos associados, e controle centralizado por meio de endpoints documentados via Swagger.
 
-A aplicação foi construída em **C# com .NET 8**, utilizando **Entity Framework Core** para persistência de dados e arquitetura em camadas (Controller → Service → Repository → Data → Model).
+A aplicação foi construída em **C# com .NET 8**, utilizando Entity Framework Core para persistência de dados e arquitetura em camadas (Controller → Service → Repository → Data → Model).
 
 ---
 
 ## Objetivo do Sistema
 
-O sistema tem como foco oferecer um **gerenciador de investimentos** simples e eficiente para clientes de um banco fictício.  
+O sistema tem como foco oferecer um gerenciador de investimentos simples e eficiente para clientes de um banco fictício.  
 
 Os principais objetivos são:
 - Permitir o **cadastro de clientes** e de seus respectivos **investimentos**.
@@ -97,9 +106,6 @@ sprint4/
 ---
 
 ## Principais Endpoints (Swagger)
-
-Após iniciar o projeto, acesse:
-`https://localhost:{porta}/swagger`
 
 ### Cliente
 - **GET** `/api/cliente` — Listar todos os clientes  
